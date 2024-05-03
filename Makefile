@@ -21,6 +21,7 @@ $(NAME) :  $(OBJ)
 	@make -C mlx &> /dev/null
 	$(CC) $(OBJ) -o $(NAME) $(LFLAGS)
 	@echo "✅"
+	@echo "\n\033[0;32m\tSpecial thanks to \033[0;31mROPNEZ \033[0;32mfor contributing🤪\033[0m\n";
 
 clean   :
 	@make -C libft clean
